@@ -245,7 +245,7 @@ const handleAddIntegration = (category: IntegrationCategoryType, integration: In
 
                         <div
                           :tabindex="0"
-                          class="source-card focus-visible:outline-none"
+                          class="source-card focus-visible:outline-none outline-none"
                           :class="{
                             'is-available': integration?.isAvailable,
                           }"
